@@ -11,6 +11,7 @@ namespace BlazorToolsCI.Tools
         {
             return a + b;
         }
+        
 
         public int Div(int a, int b)
         {
@@ -26,7 +27,7 @@ namespace BlazorToolsCI.Tools
 
         public int Sub(int a, int b)
         {
-            return a - b;
+            return 1;
         }
     }
 }
