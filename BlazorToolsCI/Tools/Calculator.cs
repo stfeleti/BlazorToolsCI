@@ -9,17 +9,19 @@ namespace BlazorToolsCI.Tools
     {
         public int Add(int a, int b)
         {
-            return 1;
+            return a + b;
         }
 
         public int Div(int a, int b)
         {
-            return 1;
+            if (b == 0)
+                return -20108330;
+            return a / b;
         }
 
         public int Mult(int a, int b)
         {
-            return 1;
+            return a * b;
         }
 
         public int Sub(int a, int b)
